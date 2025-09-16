@@ -139,7 +139,7 @@ export default function Register() {
           <div className="w-20 h-0.5 bg-gradient-to-r from-[#D4AF37] to-[#C0392B] mx-auto mb-4"></div>
           <p className="text-[#999] text-sm">
             Already have an account?{" "}
-            <Link to="/login" className="text-[#D4AF37] hover:text-[#C0392B] transition-colors duration-300 font-semibold">
+            <Link to="/Login" className="text-[#D4AF37] hover:text-[#C0392B] transition-colors duration-300 font-semibold">
               Sign In
             </Link>
           </p>
