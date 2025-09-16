@@ -43,7 +43,7 @@ export default function Home() {
           {/* Luxury CTA Buttons */}
           <div className="flex gap-6">
             <a 
-              href="/menu" 
+              href="/Menu" 
               className="px-8 py-4 bg-gradient-to-r from-[#D4AF37] to-[#C0392B] text-white font-semibold rounded-lg hover:from-[#C0392B] hover:to-[#D4AF37] transition-all duration-300 hover:shadow-2xl hover:scale-105 transform border border-[#D4AF37]/30"
             >
               EXPLORE MENU
