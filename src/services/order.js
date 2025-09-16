@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/orders";
+const API = "https://resturant-website-backend-gamma.vercel.app/api/orders";
 
 export async function createOrder(orderData, token) {
   const res = await axios.post(API, orderData, {
