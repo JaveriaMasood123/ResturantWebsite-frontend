@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/menu";
+const API_URL = "https://resturant-website-backend-gamma.vercel.app/api/menu";
 
 export async function getMenuItems() {
   const res = await fetch(API_URL);
