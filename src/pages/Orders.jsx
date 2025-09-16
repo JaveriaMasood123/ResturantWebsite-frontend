@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getOrders } from "../services/order";
+import { Link } from "react-router-dom";
 
 export default function Orders() {
   const [orders, setOrders] = useState([]);
@@ -62,12 +63,12 @@ export default function Orders() {
           <p className="text-[#999] mb-8">
             Start your culinary journey with our exquisite menu
           </p>
-          <a 
-            href="/menu" 
+          <Link
+            to="/Menu" 
             className="px-8 py-3 bg-gradient-to-r from-[#D4AF37] to-[#C0392B] text-white font-semibold rounded-lg hover:from-[#C0392B] hover:to-[#D4AF37] transition-all duration-300"
           >
             Explore Menu
-          </a>
+          </Link>
         </div>
       ) : (
         <div className="max-w-4xl mx-auto space-y-6">
