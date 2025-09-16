@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://resturant-website-backend-gamma.vercel.app/api/auth";
 
 export async function login(credentials) {
   const res = await fetch(`${API_URL}/login`, {
